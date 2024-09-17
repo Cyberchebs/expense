@@ -37,7 +37,13 @@ export default function Main() {
           Expense Tracker
         </Heading>
         <Flex alignItems={"center"}>
-          <Button onClick={onOpen} bg={"blue.300"} color={"black"} ml={"4"}>
+          <Button
+            onClick={onOpen}
+            bg={"blue.300"}
+            color={"black"}
+            ml={"4"}
+            p={"2"}
+          >
             Add New Transaction
           </Button>
         </Flex>
